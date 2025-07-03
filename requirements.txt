@@ -1,0 +1,9 @@
+rich
+pyfiglet
+pydotplus
+Pillow
+prometheus_client
+cryptography
+Flask
+python-dotenv
+gunicorn
