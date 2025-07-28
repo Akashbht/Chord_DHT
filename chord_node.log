@@ -8,3 +8,62 @@
 2025-07-28 04:54:55,059 - INFO - Node 1 backup created
 2025-07-28 04:54:55,059 - INFO - Data inserted: test -> Node 1
 2025-07-28 04:54:55,059 - INFO - Searching for data 'test' with key 5
+2025-07-28 04:56:06,015 - INFO - Node 1 initialized with m=3
+2025-07-28 04:56:06,015 - INFO - First node 1 inserted
+2025-07-28 04:56:06,015 - INFO - Node 1 fingers updated
+2025-07-28 04:56:06,015 - INFO - Maintenance thread started
+2025-07-28 04:56:06,015 - INFO - Network finger tables updated
+2025-07-28 04:56:06,015 - INFO - Network initialized with m=3, ring_size=8
+2025-07-28 04:56:06,015 - INFO - Node 1 heartbeat sent
+2025-07-28 04:56:06,039 - INFO - Node 1 backup created
+2025-07-28 04:56:06,039 - INFO - Data inserted: test_key -> Node 1
+2025-07-28 04:56:06,040 - INFO - Searching for data 'test_key' with key 0
+2025-07-28 04:56:21,016 - INFO - Network backup successful: network_backup_1753678581.json
+2025-07-28 04:56:21,016 - INFO - Network cleanup completed
+2025-07-28 04:56:50,909 - INFO - Node 1 initialized with m=4
+2025-07-28 04:56:50,909 - INFO - First node 1 inserted
+2025-07-28 04:56:50,910 - INFO - Node 1 fingers updated
+2025-07-28 04:56:50,910 - INFO - Maintenance thread started
+2025-07-28 04:56:50,910 - INFO - Network finger tables updated
+2025-07-28 04:56:50,910 - INFO - Network initialized with m=4, ring_size=16
+2025-07-28 04:56:50,910 - INFO - Node 1 heartbeat sent
+2025-07-28 04:56:50,910 - INFO - Node 3 initialized with m=4
+2025-07-28 04:56:50,910 - INFO - Node 3 placed between nodes 1 and 1
+2025-07-28 04:56:50,910 - INFO - Node 3 fingers updated
+2025-07-28 04:56:50,910 - INFO - Node 3 took 0 keys from successor
+2025-07-28 04:56:50,910 - INFO - Node 3 backup created
+2025-07-28 04:56:50,910 - INFO - Node 3 joined successfully
+2025-07-28 04:56:50,910 - INFO - Node 3 inserted successfully
+2025-07-28 04:56:50,910 - INFO - Node 7 initialized with m=4
+2025-07-28 04:56:50,910 - INFO - Node 7 placed between nodes 3 and 1
+2025-07-28 04:56:50,911 - INFO - Node 7 fingers updated
+2025-07-28 04:56:50,911 - INFO - Node 7 took 0 keys from successor
+2025-07-28 04:56:50,911 - INFO - Node 7 backup created
+2025-07-28 04:56:50,911 - INFO - Node 7 joined successfully
+2025-07-28 04:56:50,911 - INFO - Node 7 inserted successfully
+2025-07-28 04:56:50,911 - INFO - Node 11 initialized with m=4
+2025-07-28 04:56:50,911 - INFO - Node 11 placed between nodes 7 and 1
+2025-07-28 04:56:50,911 - INFO - Node 11 fingers updated
+2025-07-28 04:56:50,911 - INFO - Node 11 took 0 keys from successor
+2025-07-28 04:56:50,911 - INFO - Node 11 backup created
+2025-07-28 04:56:50,911 - INFO - Node 11 joined successfully
+2025-07-28 04:56:50,911 - INFO - Node 11 inserted successfully
+2025-07-28 04:56:50,934 - INFO - Node 1 backup created
+2025-07-28 04:56:50,934 - INFO - Data inserted: apple -> Node 1
+2025-07-28 04:56:50,934 - INFO - Node 1 backup created
+2025-07-28 04:56:50,934 - INFO - Data inserted: banana -> Node 1
+2025-07-28 04:56:50,934 - INFO - Node 1 backup created
+2025-07-28 04:56:50,934 - INFO - Data inserted: cherry -> Node 1
+2025-07-28 04:56:50,934 - INFO - Node 1 backup created
+2025-07-28 04:56:50,935 - INFO - Data inserted: date -> Node 1
+2025-07-28 04:56:50,935 - INFO - Node 1 backup created
+2025-07-28 04:56:50,935 - INFO - Data inserted: elderberry -> Node 1
+2025-07-28 04:56:50,935 - INFO - Searching for data 'apple' with key 13
+2025-07-28 04:56:50,935 - INFO - Searching for data 'cherry' with key 7
+2025-07-28 04:56:50,935 - INFO - Searching for data 'unknown' with key 5
+2025-07-28 04:56:50,935 - INFO - Node 1 heartbeat sent
+2025-07-28 04:56:50,935 - INFO - Node 3 heartbeat sent
+2025-07-28 04:56:50,935 - INFO - Node 7 heartbeat sent
+2025-07-28 04:56:50,935 - INFO - Node 11 heartbeat sent
+2025-07-28 04:57:05,911 - INFO - Network backup successful: network_backup_1753678625.json
+2025-07-28 04:57:05,911 - INFO - Network cleanup completed
