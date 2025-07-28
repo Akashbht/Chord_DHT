@@ -1,0 +1,14 @@
+include README.md
+include LICENSE
+include requirements.txt
+include requirements-dev.txt
+include Procfile
+include render.yaml
+recursive-include templates *.html
+global-exclude *.pyc
+global-exclude __pycache__
+global-exclude *.log
+global-exclude *.json
+global-exclude *.png
+global-exclude *.svg
+global-exclude *.dot

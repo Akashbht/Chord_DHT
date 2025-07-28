@@ -1,0 +1,19 @@
+# Development dependencies
+pytest>=6.0
+pytest-cov
+black
+flake8
+mypy
+pre-commit
+
+# Documentation
+sphinx
+sphinx-rtd-theme
+
+# Testing utilities
+coverage
+tox
+
+# Development tools
+ipython
+jupyter

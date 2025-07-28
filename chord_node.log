@@ -1,0 +1,10 @@
+2025-07-28 04:54:54,873 - INFO - Node 1 initialized with m=3
+2025-07-28 04:54:54,873 - INFO - First node 1 inserted
+2025-07-28 04:54:54,873 - INFO - Node 1 fingers updated
+2025-07-28 04:54:54,874 - INFO - Network finger tables updated
+2025-07-28 04:54:54,874 - INFO - Node 1 heartbeat sent
+2025-07-28 04:54:54,874 - INFO - Maintenance thread started
+2025-07-28 04:54:54,874 - INFO - Network initialized with m=3, ring_size=8
+2025-07-28 04:54:55,059 - INFO - Node 1 backup created
+2025-07-28 04:54:55,059 - INFO - Data inserted: test -> Node 1
+2025-07-28 04:54:55,059 - INFO - Searching for data 'test' with key 5
