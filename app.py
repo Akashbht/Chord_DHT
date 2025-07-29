@@ -36,9 +36,11 @@ def load_state():
         network = None
         node_ids = []
 
-@app.before_first_request
-def before_first_request():
-    load_state()
+@app.before_request
+def before_request():
+    if not hasattr(app, '_initialized'):
+        load_state()
+        app._initialized = True
 
 @app.route('/')
 def dashboard():
@@ -249,6 +251,10 @@ def api_network_graph():
     except Exception as e:
         return jsonify({'status': 'error', 'message': str(e)}), 400
 
-if __name__ == '__main__':
+def main():
+    """Main entry point for the web application"""
     load_state()
-    app.run(debug=True, host='0.0.0.0', port=int(os.environ.get('PORT', 10000))) 
+    app.run(debug=True, host='0.0.0.0', port=int(os.environ.get('PORT', 10000)))
+
+if __name__ == '__main__':
+    main() 
